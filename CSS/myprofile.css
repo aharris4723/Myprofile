@@ -10,9 +10,14 @@
   white-space: :30px;
 }
 .pageone{
-  background:url("http://res.cloudinary.com/dleazv4g1/image/upload/v1499397009/seth-willingham-64594_hwul73.jpg");
-  background-size:cover;
+  background-color: mediumturquoise;
+  background-size: cover;
   height:600px;
+  margin-top:px; 
+  margin-right:px;
+  margin-left:px;
+  margin-bottom:px;
+  width:px;
 }
 .nav-pills{
   font-size:50px;
@@ -22,46 +27,67 @@
   color:black;
 }
 .pagetwo{
-  background:url("background.html");
+  background-color:white;
   background-size:cover;
   height:600px;
-  margin
-  
+  width: 
+  padding:auto 5px;
 }
-p{
-  margin: 0 auto;*/
-  padding: 10px;
-  font-family: monospace;
-  font-size: 15pt;
-  text-align: center;
-  color: black;
+.h1{
+  
+
+} 
+.container{
+  margin-top: 50px;
+  }
+
+.textbox{
+   border-radius: 50%;
+   border: solid red;
+   width: 50px;
+   height: 50px;
 
 }
+p{
+ border: 5px solid powderblue;
+ padding: 0px;
+ margin-top: 0px;
+ font-size: 20pt;
+ color: black;
+}
 .pagethree{
-  background:url("http://res.cloudinary.com/dleazv4g1/image/upload/v1499451909/alex-jodoin-246078_p3ttgl.jpg");
+  background-color: lightsteelblue;
   background-size:cover;
   height:600px;
-   
-  
-  
 }
 .img-circle{
-  margin-top:  80px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-top:  25px;
+  /*margin-left: 40px;*/
+  margin-right: 150px;
   border: 1px solid #ddd;
   padding: 0px;
   width: 400px;
 }
-.h1{
-  margin: 0 auto;
-  padding: 0 auto;
+h1{
+ margin:0px;
+ padding-top: 40px; 
+ margin-top: 20px;
+}
+.headline{
+  font-size: 48pt;
+  font-style: monospace;
+}
+.info{
+  margin-top: 200px;
+  margin-right:50px; 
+  margin-left:50px;
 }
 @media all and (max-width: 480px){
   body{
 
   }
   p{
+
     
   }
 
