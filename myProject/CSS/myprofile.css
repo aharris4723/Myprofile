@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+.list-inline{
+  font-family: lobster;
+  color: red;
+  font-size: 40pt;
+  white-space: :30px;
+}
+.pageone{
+  background-color: mediumturquoise;
+  background-size: cover;
+  height:600px;
+  margin-top:px; 
+  margin-right:px;
+  margin-left:px;
+  margin-bottom:px;
+  width:px;
+}
+.nav-pills{
+  font-size:50px;
+  font-family:lobster;
+  margin-bottom:%;
+  text-align: right;
+  color:black;
+}
+.pagetwo{
+  background-color:white;
+  background-size:cover;
+  height:600px;
+  width: 
+  padding:auto 5px;
+}
+.h1{
+  
+
+} 
+.p3header{
+  margin-top: 100px;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#button-color{
+    background-color: skyblue;
+    width: 98%;
+    
+
+
+}
+
+.entry-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    text-align: 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/*.wrapper {
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    top: 0;
+.container{
+  margin-top: 50px;
+  }
+*/
+.textbox{
+   border-radius: 50%;
+   border: solid red;
+   width: 50px;
+   height: 50px;
+
+}
+p{
+ border: 5px solid powderblue;
+ padding: 0px;
+ margin-top: 0px;
+ font-size: 20pt;
+ color: black;
+}
+.pagethree{
+  background-color: lightsteelblue;
+  background-size:cover;
+  height:600px;
+}
+.img-circle{
+  margin-top:  25px;
+  /*margin-left: 40px;*/
+  margin-right: 150px;
+  border: 1px solid #ddd;
+  padding: 0px;
+  width: 400px;
+}
+h1{
+ margin:0px;
+ padding-top: 40px; 
+ margin-top: 20px;
+}
+.headline{
+  font-size: 48pt;
+  font-style: monospace;
+}
+.info{
+  margin-top: 200px;
+  margin-right:50px; 
+  margin-left:50px;
+}
+/*@media all and (max-width: 480px){
+  body{
+
+  }
+  p{
+
+    
+  }
+
+}
+@media all and (max-width: 480px) and (max-width: 767px){
+  body{
+
+  }
+  p{
+    
+  }
+
+}
+@media all and (max-width: 480px) and (max-width: 992px){
+  body{
+
+  }
+  p{
+    
+  }
+
+}
+
+*/
+@media all and (max-width: 480px){
+  body {
+    margin-bottom: 100px;
+  }
+  
+  }
+  .info{
+    width: 100%;
+    max-height: 25%;
+    }
+
+
+@media all and (min-width: 481px) and (max-width: 991px) {
+  body {
+    margin-bottom: 100px;
+  }
+
+  .pageone {
+    width: 100%; 
+  }
+  .pagetwo {
+    width: 100%;
+    max-height: 100%; 
+  }
+  .pagethree {
+    width: 100%;
+    max-height: 25%; 
+  }
+
+  
+   .info{
+     width: 100%; 
+     max-height: 25%;
+    }
+  
+}
+
+@media all and (min-width: 992px){
+  .pageone {
+    width: 100%; 
+
+  }
+  .pagetwo {
+    width: 100%; 
+  }
+  .pagethree {
+    width: 100%; 
+  }
+
+ .info{
+  width: 100%;
+    max-height: 25%;
+}
